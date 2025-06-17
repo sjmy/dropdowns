@@ -2,7 +2,7 @@
   "name": "js-dropdowns",
   "version": "1.0.0",
   "description": "A dropdown element creator using Javascript",
-  "main": "js-dropdowns.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \\\"Error: no test specified\\\" && exit 1",
     "build": "webpack --config webpack.prod.js",
