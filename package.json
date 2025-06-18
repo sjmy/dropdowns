@@ -1,5 +1,5 @@
 {
-  "name": "dropdowns",
+  "name": "@sjmy/dropdowns",
   "version": "1.0.0",
   "description": "A dropdown listener creator using Javascript and CSS",
   "main": "src/dropdowns.js",
@@ -19,6 +19,12 @@
     "url": "https://github.com/sjmy/dropdowns/issues"
   },
   "homepage": "https://github.com/sjmy/dropdowns#readme",
+  "files": [
+    "./src/dropdowns.js",
+    "./src/styles.css",
+    "./src/template.html",
+    "eslint.config.mjs"
+  ],
   "devDependencies": {
     "@eslint/css": "^0.9.0",
     "@eslint/js": "^9.29.0",
