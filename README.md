@@ -44,18 +44,18 @@ And requires the following CSS selectors:
 addAllListeners():
 
 ```javascript
-import jsDropdowns from "./js-dropdowns";
+import dropdowns from "./dropdowns";
 
-const dropdowns = jsDropdowns();
+const dropdowns = dropdowns();
 dropdowns.addAllListeners();
 ```
 
 addListener():
 
 ```javascript
-import jsDropdowns from "./js-dropdowns";
+import dropdowns from "./dropdowns";
 
-const dropdowns = jsDropdowns();
+const dropdowns = dropdowns();
 const dropdownButton = document.querySelector(".dropdown-button");
 const dropdownContent = document.querySelector(".dropdown-content");
 
