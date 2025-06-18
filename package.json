@@ -1,6 +1,6 @@
 {
   "name": "@sjmy/dropdowns",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dropdown listener creator using Javascript and CSS",
   "main": "src/dropdowns.js",
   "type": "module",
