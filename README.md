@@ -1,8 +1,8 @@
-# js-dropdowns
+# dropdowns
 
 A dropdown listener creator using Javascript and CSS.
 
-The js-dropdowns.js module has two available functions:
+The dropdowns.js module has two available functions:
 
 ### addAllListeners()
 
@@ -14,42 +14,50 @@ Adds an event listener to a single dropdown-button/dropdown-content div pair.
 
 ---
 
-The js-dropdowns module relies on the follwing HTML structure. Each dropdown-button <em>must</em> be paired with a dropdown-content div that contains your items:
+The dropdowns module relies on the follwing HTML structure. Each dropdown-button <em>must</em> be paired with a dropdown-content div that contains your items:
 
-    <div class="dropdown">
-      <button class="dropdown-button">Dropdown Menu 1</button>
-      <div class="dropdown-content">
-        <a href="#">Item 1</a>
-        <a href="#">Item 2</a>
-        <a href="#">Item 3</a>
-      </div>
-    </div>
+```html
+<div class="dropdown">
+  <button class="dropdown-button">Dropdown Menu 1</button>
+  <div class="dropdown-content">
+    <a href="#">Item 1</a>
+    <a href="#">Item 2</a>
+    <a href="#">Item 3</a>
+  </div>
+</div>
+```
 
 And requires the following CSS selectors:
 
-    .dropdown-content {
-        display: none;
-    }
+```css
+.dropdown-content {
+  display: none;
+}
 
-    .show {
-        display: block;
-    }
+.show {
+  display: block;
+}
+```
 
 ### Usage Examples
 
 addAllListeners():
 
-    import jsDropdowns from "./js-dropdowns";
+```javascript
+import jsDropdowns from "./js-dropdowns";
 
-    const dropdowns = jsDropdowns();
-    dropdowns.addAllListeners();
+const dropdowns = jsDropdowns();
+dropdowns.addAllListeners();
+```
 
 addListener():
 
-    import jsDropdowns from "./js-dropdowns";
+```javascript
+import jsDropdowns from "./js-dropdowns";
 
-    const dropdowns = jsDropdowns();
-    const dropdownButton = document.querySelector(".dropdown-button");
-    const dropdownContent = document.querySelector(".dropdown-content");
+const dropdowns = jsDropdowns();
+const dropdownButton = document.querySelector(".dropdown-button");
+const dropdownContent = document.querySelector(".dropdown-content");
 
-    dropdowns.addListener(dropdownButton, dropdownContent);
+dropdowns.addListener(dropdownButton, dropdownContent);
+```

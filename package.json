@@ -1,8 +1,8 @@
 {
-  "name": "js-dropdowns",
+  "name": "dropdowns",
   "version": "1.0.0",
-  "description": "A dropdown element creator using Javascript",
-  "main": "main.js",
+  "description": "A dropdown listener creator using Javascript and CSS",
+  "main": "src/dropdowns.js",
   "scripts": {
     "test": "echo \\\"Error: no test specified\\\" && exit 1",
     "build": "webpack --config webpack.prod.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sjmy/js-dropdowns.git"
+    "url": "git+https://github.com/sjmy/dropdowns.git"
   },
   "author": "sjmy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sjmy/js-dropdowns/issues"
+    "url": "https://github.com/sjmy/dropdowns/issues"
   },
-  "homepage": "https://github.com/sjmy/js-dropdowns#readme",
+  "homepage": "https://github.com/sjmy/dropdowns#readme",
   "devDependencies": {
     "@eslint/css": "^0.9.0",
     "@eslint/js": "^9.29.0",

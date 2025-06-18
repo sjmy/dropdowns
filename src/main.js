@@ -1,8 +1,8 @@
 import "./styles.css";
-import jsDropdowns from "./js-dropdowns";
+import dropdowns from "./dropdowns";
 
 // Add listeners to all dropdowns
-const dropdowns = jsDropdowns();
+const dropdowns = dropdowns();
 dropdowns.addAllListeners();
 
 // Add listener to a single dropdown

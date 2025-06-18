@@ -1,4 +1,4 @@
-export default function jsDropdowns() {
+export default function dropdowns() {
   // Add "show" class to dropdown-content div
   function show(dropdownContent) {
     dropdownContent.classList.add("show");
